@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url('/img/map.png');
+}
+
+h1 {
+	color: black;
+	font-family: fantasy;
+	text-align: center;
+}
+
+
+#my-map {
+	width: 770px;
+	height: 481px;
+	margin-bottom: 5px;
+
+}
+
+#my-map2 {
+	width: 770px;
+	height: 481px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#my-map3 {
+	width: 770px;
+	height: 481px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#my-map4 {
+	width: 770px;
+	height: 481px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

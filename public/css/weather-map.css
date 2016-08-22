@@ -1,0 +1,35 @@
+body {
+	background-color: #8080ff;
+}
+/*weather boxes*/
+#todayWeather {
+	border-width: thin; 
+	border-style: solid;
+	background-color: silver;
+}
+
+#tomorrowWeather {
+	border-width: thin;
+	border-style: solid;
+	background-color: silver;
+}
+
+#thirdDayWeather {
+	border-width: thin;
+	border-style: solid;
+	background-color: silver;
+}
+/*Google map*/
+#googleMap {
+	height: 500px;
+	border: solid;
+	margin-left: 100px;
+	margin-right: 100px;
+	align-content: center;
+	margin-bottom: 35px;
+}
+/*Submit button for lat/long*/
+button {
+	margin-top: 17px;
+	vertical-align: center;
+}

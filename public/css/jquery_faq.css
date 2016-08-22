@@ -1,0 +1,13 @@
+.invisible {
+	display: none;
+}
+h1 {
+	text-align: center;
+	font-color:;
+}
+body {
+	background-image: url(/img/nps.png);
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
