@@ -22,10 +22,11 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 18px; 
 }
 
 .lead {
+    text-align: justify;
     font-size: 18px;
     font-weight: 400;
 }
@@ -114,9 +115,11 @@ h6 {
 }
 
 .banner {
-    padding: 100px 0;
+    margin-top: 15px;
+    padding: 25px;
+    /*padding: 100px 0;*/
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(/img/code.jpeg) no-repeat center center;
     background-size: cover;
 }
 
@@ -161,7 +164,8 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
+    padding-top: 0px;
+    padding: 0px 0;
     background-color: #f8f8f8;
 }
 
