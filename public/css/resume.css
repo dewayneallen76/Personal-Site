@@ -1,0 +1,6 @@
+/*CSS for profile image on */
+img {
+	height: 175px;
+	/*width: 200px;*/
+	border-radius: 80px;
+}
