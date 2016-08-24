@@ -18,13 +18,13 @@ function randomSequence () {
 	return sequence[random];
 };
 // Worked on function to flash the used sequence, but could not get it to work. 
-// function flashUsedSequence () {
-// 	$(usedSequence).animate(function() {
-// 		opacity: "1"
-// 	}, 800).animate({
-// 		opacity: "0.5"
-// 	}, 200)
-// };
+function flashUsedSequence () {
+	$(usedSequence.length).animate(function() {
+		opacity: "1"
+	}, 800).animate({
+		opacity: "0.5"
+	}, 200)
+};
 
 // Functions for playing game 
 function startSequence() {
