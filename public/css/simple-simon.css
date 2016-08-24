@@ -1,0 +1,51 @@
+/*Added font from Google Fonts for text and button text*/
+.text-center {
+	font-family: 'Monoton', cursive;
+}
+/*Background color*/
+body {
+	background-color: black ;
+	}
+/*Styling for container to center*/
+.container {
+	width: 336px;
+}
+/*Button*/
+.button {
+	text-align: center;
+	font-family: 'Monoton', cursive;
+}
+/*Styling for all boxes*/
+.box {
+	width:150px;
+	height:150px;
+	border:1px solid black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding:10px;
+	float: left;
+	align-content: center;
+	}
+/*Styling for individual boxes*/
+#red {
+	background-color: red;
+	margin-right: 5px;
+	opacity: 0.5;
+	}
+
+#blue {
+	background-color: blue;
+	opacity: 0.5;
+	}
+
+#green {
+	background-color: limegreen;
+	clear: left;
+	margin-right: 5px;
+	opacity: 0.5;
+	}
+
+#yellow {
+	background-color: yellow;
+	opacity: 0.5;
+	}

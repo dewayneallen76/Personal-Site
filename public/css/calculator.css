@@ -13,17 +13,16 @@ body {
 }
 
 body {
+	text-align: center;
 	align-content: center;
-	background-image: url(/img/lasercat.gif);
+	background-color: silver;
 	background-size: 100%;
 }
 
 /*Title*/
 .title {
-	padding-right: 10px;
-	text-align: center;
 	font-size: 39px;
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Monofett', cursive;
 	padding-bottom: 10px;
 	color: blue;
 }
@@ -74,7 +73,6 @@ body {
 }
 /*blank buttons*/
 #blank {
-	background-image: url(/img/spacecat.png);
 	background-color: black;
 	text-align: left;
 	text-decoration-color: silver;
