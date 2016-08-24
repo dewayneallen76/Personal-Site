@@ -1,4 +1,4 @@
-(function(){
+// (function(){
 "use strict";
 console.log('JS linked');
 
@@ -49,6 +49,7 @@ $('.box').click(function() {   // add click to buttons
 			$('#round').html('Round: ' + round);
 			setTimeout(function() {
 				startSequence(); 
+				
 			}, 1000);
 		} 
 	} else {
@@ -96,4 +97,4 @@ $('#yellow').click(function() {
 	},800)
 });
 
-})();			
+// })();			

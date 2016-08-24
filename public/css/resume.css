@@ -3,3 +3,11 @@ img {
 	height: 175px;
 	border-radius: 80px;
 }
+
+p {
+	text-align: justify;
+}
+
+body {
+	font-size: 16px;
+}
