@@ -11,3 +11,12 @@ body {
 footer {
     margin: 50px 0;
 }
+
+.navbar {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.navbar-header {
+	font-size: 18px;
+}
