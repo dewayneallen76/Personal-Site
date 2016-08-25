@@ -9,15 +9,15 @@
 
 <h2 class="text-center">Weather Application</h2>
 <div class="container">
-<div class="row">
-  <div id="todayWeather" class="col-md-4"></div>
-  <div id="tomorrowWeather" class="col-md-4"></div>
-  <div id="thirdDayWeather" class="col-md-4"></div>
-</div>
-<br>
-<div class="row">
-  <div class="col-md-4">
-  	<div class="form-group">
+  <div class="row">
+    <div id="todayWeather" class="col-md-4"></div>
+    <div id="tomorrowWeather" class="col-md-4"></div>
+    <div id="thirdDayWeather" class="col-md-4"></div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+  	 <div class="form-group">
     	<label for="exampleInputEmail1">Latitude</label>
     	<input class="form-control" id="inputLatitude" placeholder="Latitude">
   	</div>
@@ -30,9 +30,10 @@
   </div>
   <div class="col-md-4">
   	<button type="submit" id="submit" class="btn btn-primary btn-lg btn-block">Get Weather!</button>
-  </div>
+  </div>  
 </div>
 <br>
+<p class="text-center">Drag the marker anywhere on the map to get the latitude and longitude. Click Get Weather! to get the three day forecast for that location.</p>
 <div id="googleMap"></div>
 
 </body>
