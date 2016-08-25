@@ -48,8 +48,8 @@ $('.box').click(function() {   // add click to buttons
 			round++; 	// if the player click matches the random generated number the Round will increase. 		
 			$('#round').html('Round: ' + round);
 			setTimeout(function() {
-				startSequence(); 
-				
+				// flashUsedSequence();
+				startSequence(); 	
 			}, 1000);
 		} 
 	} else {
