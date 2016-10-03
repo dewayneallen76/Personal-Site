@@ -17,7 +17,7 @@ function randomSequence () {
 	var random = Math.floor(Math.random() * sequence.length);
 	return sequence[random];
 };
-// Worked on function to flash the used sequence, but could not get it to work. 
+// Function to flash sequence 
 function flashUsedSequence () {
 	usedSequence.forEach(function(element, index) {
 		setTimeout(function() {
