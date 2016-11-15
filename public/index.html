@@ -17,7 +17,7 @@
     <link href="css/landing-page.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -71,7 +71,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="intro-message">
+                    <div class="intro-message" style="display:none">
                         <h1>Dewayne Allen</h1>
                         <h3>Full Stack Software Developer</h3>
                         <address>
@@ -81,9 +81,9 @@
                         </address>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
-                            <li>
+                           <!--  <li>
                                 <a href="https://www.facebook.com/dewayne.allen1" target="blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Facebook</span></a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="https://github.com/dewayneallen76" target="blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
@@ -109,10 +109,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
+                    <!-- <hr class="section-heading-spacer"> -->
                     <div class="clearfix"></div>
                     <h2 class="section-heading">About Me:</h2>
-                    <p class="lead">Hello! Thank you for visiting my page. I am currently a student at Codeup where I am learning web development. I plan to take this experience on to bigger and better things when I complete the course. I am excited about finding a new career in software and web development. Please take a look at my resume, and check out my portfolio which contains some of the projects that I have completed while at Codeup.</p>
+                    <p class="lead">Hello! Thank you for visiting my page. I am a recent graduate of Codeup, an immersive 16 week program where I learned full-stack LAMP + J web development. I am excited about finding a new career in software and web development. I am looking to apply my knowledge to a team enviroment that emphasizes mentorship, and excited to learn new things. Please take a look at my resume, and check out my portfolio which contains some of the projects that I have completed.</p>
                     <p class="lead">Originally from Tennessee, I have called San Antonio, TX home for the last 17 years. My career began in telecommunications when I enlisted in the Air Force where I was a Telecommunications Technician while stationed at Kelly AFB. I used this experience to work in various roles with Worldcom and Verizon providing telecommuncations support for clients nationwide. Prior to enrolling in Codeup I was General Manager at Cambridge Auto Center, and was responsible for day to day operations of the facility and managed 20 employees. I also host a live call-in radio show every Saturday on a local radio station, 1200AM WOAI, called Under the Hood which is focused on automotive repair and maintenance.</p>
                     <p class="lead">My hobbies include reading, golfing, traveling, attending concerts and music festivals and an occasional game of rugby with old teammates. My favorite hobby is spending time with my family. 
                 </div>
@@ -171,7 +171,7 @@
   <!--   </div> -->
     <!-- /.content-section-a -->
 
-	<a  name="contact"></a>
+	<!-- <a  name="contact"></a>
     <div class="banner">
 
         <div class="container">
@@ -195,7 +195,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
         <!-- /.container -->
 
     </div>
@@ -228,13 +228,16 @@
             </div>
         </div>
     </footer>
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
+    <script>
+        $(document).ready(function() {
+            $('div.intro-message').fadeIn(2200);
+        });
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
 
 </body>
-
 </html>
