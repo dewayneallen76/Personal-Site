@@ -42,7 +42,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="mailto:dewayneallen76@gmail.com">Dewayne Allen</a>
+                <a class="navbar-brand topnav" href="#">Dewayne Allen</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -77,7 +77,8 @@
                         <address>
                         612 Leigh Street<br>
                         San Antonio, TX  78210<br>
-                        <abbr title="Phone">P:</abbr><a style="color:white;" href="tel:210-887-8375">   (210) 887-8375</a>
+                        <abbr title="Phone"></abbr><a style="color:white;" href="tel:210-887-8375">   (210) 887-8375</a><br>
+                        <abbr title="Email"><a style="color:white;" href="mailto:dewayneallen76@gmail.com">dewayneallen76@gmail.com</a></abbr>
                         </address>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
@@ -234,6 +235,11 @@
     <script>
         $(document).ready(function() {
             $('div.intro-message').fadeIn(2200);
+        });
+
+        $(".navbar-nav li a").click(function(event) {
+            if (!$(this).parent().hasClass('dropdown'))
+            $(".navbar-collapse").collapse('hide');
         });
     </script>
     <!-- Bootstrap Core JavaScript -->
