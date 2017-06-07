@@ -62,44 +62,58 @@
         </div>
         <!-- /.container -->
     </nav>
+    <!--Code for video test  -->
+    <div class="homepage-hero-module">
+      <div class="video-container">
+        <div class="filter"></div>
+          <video autoplay loop class="fillWidth">
+            <source src="img/Love-Coding.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="img/Love-Coding.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          </video>
+        <div class="poster hidden">
+            <img src="img/Love-Coding.jpg" alt="">
+        </div>
+        <a name="about"></a>
+        <div class="intro-header">
+            <div class="container">
 
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="intro-message" style="display:none">
+                            <h1>Dewayne Allen</h1>
+                            <h3>Full Stack Web Developer</h3>
+                            <address>
+                            612 Leigh Street<br>
+                            San Antonio, TX  78210<br>
+                            <abbr title="Phone"></abbr><a style="color:white;" href="tel:210-887-8375">   (210) 887-8375</a><br>
+                            <abbr title="Email"><a style="color:white;" href="mailto:dewayneallen76@gmail.com">dewayneallen76@gmail.com</a></abbr>
+                            </address>
+                            <hr class="intro-divider">
+                            <ul class="list-inline intro-social-buttons">
+                               <!--  <li>
+                                    <a href="https://www.facebook.com/dewayne.allen1" target="blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Facebook</span></a>
+                                </li> -->
+                                <li>
+                                    <a href="https://github.com/dewayneallen76" target="blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/dewayne-allen-897a95127" target="blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+    </div>
+</div>
 
     <!-- Header -->
     <a name="about"></a>
-    <div class="intro-header">
-        <div class="container">
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message" style="display:none">
-                        <h1>Dewayne Allen</h1>
-                        <h3>Full Stack Web Developer</h3>
-                        <address>
-                        612 Leigh Street<br>
-                        San Antonio, TX  78210<br>
-                        <abbr title="Phone"></abbr><a style="color:white;" href="tel:210-887-8375">   (210) 887-8375</a><br>
-                        <abbr title="Email"><a style="color:white;" href="mailto:dewayneallen76@gmail.com">dewayneallen76@gmail.com</a></abbr>
-                        </address>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                           <!--  <li>
-                                <a href="https://www.facebook.com/dewayne.allen1" target="blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Facebook</span></a>
-                            </li> -->
-                            <li>
-                                <a href="https://github.com/dewayneallen76" target="blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/dewayne-allen-897a95127" target="blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
     <!-- /.intro-header -->
 
     <!-- Page Content -->
@@ -115,7 +129,7 @@
                     <h2 class="section-heading">About Me:</h2>
                     <p class="lead">Hello! Thank you for visiting my page. I am a recent graduate of Codeup, an immersive 16 week program where I learned full-stack LAMP + J web development. I am excited about finding a new career in software and web development. I am looking to apply my knowledge to a team environment that emphasizes mentorship, and excited to learn new things. Please take a look at my resume, and check out my portfolio which contains some of the projects that I have completed.</p>
                     <p class="lead">Originally from Tennessee, I have called San Antonio, TX home for the last 17 years. My career began in telecommunications when I enlisted in the Air Force where I was a Telecommunications Technician while stationed at Kelly AFB. I used this experience to work in various roles with Worldcom and Verizon providing telecommuncations support for clients nationwide. Prior to enrolling in Codeup I was General Manager at Cambridge Auto Center, and was responsible for day to day operations of the facility and managed 20 employees. I also host a live call-in radio show every Saturday on a local radio station, 1200AM WOAI, called Under the Hood which is focused on automotive repair and maintenance.</p>
-                    <p class="lead">My hobbies include reading, golfing, traveling, attending concerts and music festivals and an occasional game of rugby with old teammates. My favorite hobby is spending time with my family. 
+                    <p class="lead">My hobbies include reading, golfing, traveling, attending concerts and music festivals and an occasional game of rugby with old teammates. My favorite hobby is spending time with my family.
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive center-block img-rounded" src="img/DewayneAllen2.jpg" alt="">
@@ -164,7 +178,7 @@
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/phones.png" alt="">
                 </div> -->
-            <!-- </div> --> 
+            <!-- </div> -->
 
    <!--      </div> -->
         <!-- /.container -->
@@ -241,6 +255,69 @@
             if (!$(this).parent().hasClass('dropdown'))
             $(".navbar-collapse").collapse('hide');
         });
+      // JS FOR VIDEO
+        $( document ).ready(function() {
+
+    scaleVideoContainer();
+
+    initBannerVideoSize('.video-container .poster img');
+    initBannerVideoSize('.video-container .filter');
+    initBannerVideoSize('.video-container video');
+
+    $(window).on('resize', function() {
+        scaleVideoContainer();
+        scaleBannerVideoSize('.video-container .poster img');
+        scaleBannerVideoSize('.video-container .filter');
+        scaleBannerVideoSize('.video-container video');
+    });
+
+});
+
+function scaleVideoContainer() {
+
+    var height = $(window).height() + 5;
+    var unitHeight = parseInt(height) + 'px';
+    $('.homepage-hero-module').css('height',unitHeight);
+
+}
+
+function initBannerVideoSize(element){
+
+    $(element).each(function(){
+        $(this).data('height', $(this).height());
+        $(this).data('width', $(this).width());
+    });
+
+    scaleBannerVideoSize(element);
+
+}
+
+function scaleBannerVideoSize(element){
+
+    var windowWidth = $(window).width(),
+    windowHeight = $(window).height() + 5,
+    videoWidth,
+    videoHeight;
+
+    // console.log(windowHeight);
+
+    $(element).each(function(){
+        var videoAspectRatio = $(this).data('height')/$(this).data('width');
+
+        $(this).width(windowWidth);
+
+        if(windowWidth < 1000){
+            videoHeight = windowHeight;
+            videoWidth = videoHeight / videoAspectRatio;
+            $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+
+            $(this).width(videoWidth).height(videoHeight);
+        }
+
+        $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+
+    });
+}
     </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
