@@ -42,7 +42,7 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     /*background: url(/img/code.jpeg) no-repeat center center;*/
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .intro-message {
@@ -215,7 +215,7 @@ p.copyright {
 .video-container .filter {
     z-index: 100;
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
+    /*background: rgba(0, 0, 0, 0.4);*/
     /*background-image: url(/img/Love-Coding.jpg);*/
     width: 100%;
 }
