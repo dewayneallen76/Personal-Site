@@ -96,6 +96,7 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
+    position: relative;
 }
 
 .img-responsive {
@@ -181,7 +182,6 @@ p.copyright {
 .homepage-hero-module {
     border-right: none;
     border-left: none;
-    position: relative;
 }
 .no-video .video-container video,
 .touch .video-container video {
