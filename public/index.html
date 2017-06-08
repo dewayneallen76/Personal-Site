@@ -76,7 +76,6 @@
         <a name="about"></a>
         <div class="intro-header">
             <div class="container">
-
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="intro-message" style="display:none">
@@ -90,9 +89,6 @@
                             </address>
                             <hr class="intro-divider">
                             <ul class="list-inline intro-social-buttons">
-                               <!--  <li>
-                                    <a href="https://www.facebook.com/dewayne.allen1" target="blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Facebook</span></a>
-                                </li> -->
                                 <li>
                                     <a href="https://github.com/dewayneallen76" target="blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                                 </li>
@@ -103,10 +99,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-            <!-- /.container -->
-
         </div>
     </div>
 </div>
@@ -137,81 +130,6 @@
             </div>
 
         </div>
-        <!-- /.container -->
-
-  <!--   </div> -->
-    <!-- /.content-section-a -->
-
-   <!--  <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
- <!-- <!--    </div>
-    <!-- /.content-section-b -->
-
-    <!-- <div class="content-section-a"> -->
-
-        <!-- <div class="container"> -->
-
-            <!-- <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
-                </div> -->
-            <!-- </div> -->
-
-   <!--      </div> -->
-        <!-- /.container -->
-
-  <!--   </div> -->
-    <!-- /.content-section-a -->
-
-	<!-- <a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect With Me:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://www.facebook.com/dewayne.allen1" target="blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/dewayneallen76" target="blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/dewayne-allen-897a95127" target="blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div> -->
-        <!-- /.container -->
 
     </div>
     <!-- /.banner -->
@@ -225,15 +143,7 @@
                         <li>
                             <a href="#">Home</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-<!--                         <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li> -->
-                        <!-- <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li> -->
+                        <li class="footer-menu-divider">&sdot;</l
                         <li>
                             <a href="mailto:dewayneallen76@gmail.com">Contact</a>
                         </li>
@@ -247,41 +157,40 @@
     <script src="js/jquery.js"></script>
 
     <script>
-        $(document).ready(function() {
-            $('div.intro-message').fadeIn(2200);
-        });
+    $(document).ready(function() {
+        $('div.intro-message').fadeIn(2200);
+    });
 
-        $(".navbar-nav li a").click(function(event) {
-            if (!$(this).parent().hasClass('dropdown'))
-            $(".navbar-collapse").collapse('hide');
-        });
-      // JS FOR VIDEO
-        $( document ).ready(function() {
+    $(".navbar-nav li a").click(function(event) {
+        if (!$(this).parent().hasClass('dropdown'))
+        $(".navbar-collapse").collapse('hide');
+    });
 
-    scaleVideoContainer();
+    // JS FOR VIDEO
+    $( document ).ready(function() {
 
-    initBannerVideoSize('.video-container .poster img');
-    initBannerVideoSize('.video-container .filter');
-    initBannerVideoSize('.video-container video');
+      scaleVideoContainer();
 
-    $(window).on('resize', function() {
+      initBannerVideoSize('.video-container .poster img');
+      initBannerVideoSize('.video-container .filter');
+      initBannerVideoSize('.video-container video');
+
+      $(window).on('resize', function() {
         scaleVideoContainer();
         scaleBannerVideoSize('.video-container .poster img');
         scaleBannerVideoSize('.video-container .filter');
         scaleBannerVideoSize('.video-container video');
+      });
     });
 
-});
-
-function scaleVideoContainer() {
+  function scaleVideoContainer() {
 
     var height = $(window).height() + 5;
     var unitHeight = parseInt(height) + 'px';
     $('.homepage-hero-module').css('height',unitHeight);
+  }
 
-}
-
-function initBannerVideoSize(element){
+  function initBannerVideoSize(element){
 
     $(element).each(function(){
         $(this).data('height', $(this).height());
@@ -289,10 +198,9 @@ function initBannerVideoSize(element){
     });
 
     scaleBannerVideoSize(element);
+  }
 
-}
-
-function scaleBannerVideoSize(element){
+  function scaleBannerVideoSize(element){
 
     var windowWidth = $(window).width(),
     windowHeight = $(window).height() + 5,
@@ -317,7 +225,7 @@ function scaleBannerVideoSize(element){
         $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
     });
-}
+  }
     </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
