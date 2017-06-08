@@ -23,6 +23,11 @@ h6 {
 
 .topnav {
     font-size: 18px;
+    background-color: #9E9C9C;
+}
+
+.navbar {
+  border: none;
 }
 
 .lead {
@@ -97,10 +102,12 @@ h6 {
     padding: 50px 0;
     background-color: #f8f8f8;
     position: relative;
+    opacity: 0.6;
 }
 
 .img-responsive {
-    margin-top: 85px;
+    margin-top: 30px;
+    opacity: 1;
 }
 
 .content-section-b {
