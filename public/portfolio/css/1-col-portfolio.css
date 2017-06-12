@@ -4,9 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+.topnav {
+  background-color: #9E9C9C;
+}
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: #f8f8f8;
+    background: #9E9C9C;
 }
 
 footer {
@@ -20,4 +23,5 @@ footer {
 
 .navbar-header {
 	font-size: 18px;
+  color: #333;
 }
