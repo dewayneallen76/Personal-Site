@@ -17,12 +17,11 @@ footer {
 }
 
 .navbar {
-  text-decoration-color: black;
 	font-size: 18px;
 	font-weight: 500;
 }
 
-.navbar-header { 
+.navbar-header {
 	font-size: 18px;
   color: #333;
 }
