@@ -22,14 +22,14 @@ function flashUsedSequence () {
 	usedSequence.forEach(function(element, index) {
 		setTimeout(function() {
 			if(index === usedSequence.length -1) {
-			}
 				$(element).animate({
 					opacity: "1"
 				}, 800).animate({
 					opacity: "0.5"
 				}, 200)
-			console.log(index);
-		}, index * 1000);
+				console.log(index);
+				}, index * 1000);
+		}
 	})
 }
 
