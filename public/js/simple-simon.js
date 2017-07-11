@@ -29,7 +29,7 @@ function flashUsedSequence () {
 				}, 200)
 				console.log(index);
 				}, index * 1000);
-		}
+			}
 	})
 }
 
