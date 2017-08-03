@@ -100,9 +100,9 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #9E9C9C;
     position: relative;
-    opacity: 0.6;
+    /*opacity: 0.5;*/
 }
 
 .content-section-a:hover {
