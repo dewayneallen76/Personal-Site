@@ -7,6 +7,15 @@
 .topnav {
   background-color: #9E9C9C;
 }
+
+.navbar-default .navbar-brand {
+  color: #333;
+}
+
+.navbar-default .navbar-nav >li >a {
+  color: #333;
+}
+
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background: #9E9C9C;
